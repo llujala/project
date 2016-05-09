@@ -1,0 +1,86 @@
+.navbar.main-navigation {
+  background-color: #333;
+  background: rgba(0,0,0,0.8);
+  border: none;
+}
+.navbar.main-navigation .navbar-toggle {
+  border: 1px solid #fff;
+}
+.navbar.main-navigation .navbar-toggle .icon-bar {
+  background-color: #fff;
+}
+.navbar.main-navigation .navbar-brand {
+  color: #fff;
+}
+.navbar.main-navigation .nav.navbar-nav li a {
+  color: #fff;
+}
+.navbar.main-navigation .nav.navbar-nav li.active a,
+.navbar.main-navigation .nav.navbar-nav li a:hover,
+.navbar.main-navigation .nav.navbar-nav li a:focus {
+  background-color: #F78421;
+}
+
+
+.page-content {
+  margin-top: 49px;
+}
+
+
+.main-carousel-slideshow img {
+  background-size: cover !important;
+  background-position: center;
+  height: 35vh;
+  width: 100%;
+}
+.main-carousel-slideshow .flickity-prev-next-button {
+  background: none;
+  fill: rgba(255,255,255,0.8);
+}
+.main-carousel-slideshow .flickity-prev-next-button .arrow {
+  fill: rgba(255,255,255,0.8);
+}
+.main-carousel-slideshow .flickity-page-dots {
+  bottom: 2px;
+}
+.main-carousel-slideshow .flickity-page-dots .dot {
+  width: 12px;
+  height: 12px;
+  opacity: 1;
+  background: transparent;
+  border: 1px solid white;
+}
+.main-carousel-slideshow .flickity-page-dots .dot.is-selected {
+  background: white;
+}
+
+.why-choose-us .cell {
+  height: 200px;
+}
+.why-choose-us .cell div {
+  text-align: center;
+}
+.why-choose-us .cell .opacity-layer {
+  background: rgba(0,0,0,0.4);
+  width: 100%;
+  height: 100%;
+}
+.why-choose-us .cell .caption {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+}
+.why-choose-us .cell .caption > h3 {
+  margin-top: 0;
+}
+.why-choose-us .cell .caption > div {
+  text-align: center;
+}
+.why-choose-us .mobile-friendly {
+  padding: 0;
+  background-size: cover !important;
+  background-position: center;
+  background: url('https://static.pexels.com/photos/3368/person-smartphone-office-table.jpeg');
+  color: #fff;
+}

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mobile Application</title>
+    <!-- Include meta tag to ensure proper rendering and touch zooming -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Include Boostrap stylesheets -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Include Font-Awesome stylesheets -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!-- Include Flickity stylesheets -->
+    <link rel="stylesheet" href="css/flickity.css">
+    <!-- Include Styles stylesheets -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-fixed-top main-navigation">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-navigation-collapse" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"><b>Photo</b><font style="font-weight:300">Cloud</font></a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="main-navigation-collapse">
+          <form class="navbar-form navbar-left" role="search">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Search">
+            </div>
+            <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+          </form>
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
+            <li><a href="#">Galleries</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Upload</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Account <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">Separated link</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+  <div class="page-content">
+    <div class="container-fluid first-section">
+      <div class="row">
+        <div class="main-carousel-slideshow">
+          <img style="background: url('images/banner.jpg')">
+          <img style="background: url('images/banner2.jpg')">
+          <img style="background: url('images/banner3.jpg')">
+          <img style="background: url('images/banner4.jpg')">
+          <img style="background: url('images/banner5.jpg')">
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid second-section">
+      <div class="row">
+        <div class="why-choose-us">
+          <div class="cell col-xs-12 col-sm-6 col-md-4 col-lg-3">
+            <h3>Why choose us?</h3>
+            <p>Because we are more than just a software company. Swipe right to find out more...</p>
+          </div>
+          <div class="cell mobile-friendly col-xs-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="opacity-layer">
+              <div class="caption">
+                <h3>Mobile First</h3>
+                <div><i class="fa fa-mobile fa-5x"></i></div>
+                <p>We have designed this app from mobile-to-desktop to suite all experiences.</p>
+              </div>
+            </div>
+          </div>
+          <div class="cell col-xs-12 col-sm-6 col-md-4 col-lg-3">
+            <h3>Intuitive Interface</h3>
+            <p>We have designed this app from mobile-to-desktop to suite all experiences.</p>
+          </div>
+          <div class="cell col-xs-12 col-sm-6 col-md-4 col-lg-3">
+            <h3>Secure Cloud Backups</h3>
+            <p>We have designed this app from mobile-to-desktop to suite all experiences.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Include the jQuery library -->
+  <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <!-- Include the Boostrap Library -->
+  <script lang="javascript" src="js/bootstrap.min.js"></script>
+  <!-- Include the Flickity Library -->
+  <script lang="javascript" src="js/flickity.pkgd.min.js"></script>
+  <!-- Include Flickity Settings JS -->
+  <script lang="javascript" src="js/flickity.js"></script>
+</body>
+</html>
