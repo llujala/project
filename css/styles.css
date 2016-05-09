@@ -27,12 +27,6 @@
 }
 
 
-.main-carousel-slideshow img {
-  background-size: cover !important;
-  background-position: center;
-  height: 35vh;
-  width: 100%;
-}
 .main-carousel-slideshow .flickity-prev-next-button {
   background: none;
   fill: rgba(255,255,255,0.8);
